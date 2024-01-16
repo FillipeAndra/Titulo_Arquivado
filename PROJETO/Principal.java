@@ -40,6 +40,7 @@ public class Principal {
       leitor.close();
       arquivador.write(gson.toJson(lista));
       arquivador.close();
+      System.out.println(lista);
       
       
     }
